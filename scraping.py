@@ -86,7 +86,7 @@ def featured_image(browser):
     try:
         # Find the relative image url
         img_url_rel = img_soup.select_one('figure.lede a img').get("src")
-        #print(img_url_rel)
+        print(img_url_rel)
 
     except AttributeError:
         return None
