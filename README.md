@@ -18,6 +18,9 @@ def mars_hemispheres(browser):<br/>
 Uses BeautifulSoup to retrieve images and title of Mars Hemispheres from URL: https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars. Returns a list of dictionaries containing image url's and titles for each hemisphere.
 
 2 - app.py: Web app using Flask. Uses MongoDB to create a database to hold Mars data returned from 'scrape_all()' function. Renders index.html with Mars data to be displayed.
+
+3 - index.html: HTML file containing BootStrap components to style and represent Mars data.
+
 ## Flask Output
 Following is the output showing Mars Hemispheres as thumnails:
 ![](analysis/Mars_Hemispheres.png)
